@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsboost",
+  "version": "${version}",
+  "name": "FPSBoost",
+  "icon": "icon.png",
+  "description": "Kliencki mod FPSBoost z ustawieniami i przyciskiem Discorda.",
+  "authors": [
+    "FPSBoost Studio"
+  ],
+  "contact": {
+    "homepage": "https://dc.gg/fpsbost.pl"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "pl.fpsboost.FPSBoostClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "sodium": "*"
+  }
+}
